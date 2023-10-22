@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.png">
+    <title>Mery shop</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="contain">
+        <h1>mery shop</h1>
+        <div class="navbar navbar-expand-lg bg-body-tertiary" 
+            style="padding-bottom:0px">
+            <div class="container-fluid"><section class="cn">
+                    <button class="navbar-toggler d-lg-none" style="display:grid;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon" style="margin:  2px; border:solid black 1px;height: 1px; " ></span>
+                    <span class="navbar-toggler-icon" style="margin:  2px; border:solid black 1px;height: 1px; " ></span>
+                    <span class="navbar-toggler-icon" style="margin:  2px; border:solid black 1px;height: 1px; " ></span>
+
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link " href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"  href="#shop">shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"  href="#whyus">Why us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"  href="#testimonial">Testimonial</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"  href="#contactus">Contact us</a>
+                        </li>
+                        
+                    </ul>
+                    
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link " href="login.html"><img src="images/man.ico" alt="">&nbsp; Login</a>
+                        </li>
+                    </ul>
+                    <img src="images/basket.ico" alt="basket icon">
+                    <img src="images/search.ico" alt="search icon">
+                    
+                </div></section>
+            </div>
+        </div>
+    <div style="background: #8269f8;color: white; border-radius:  0 0 15px 15px; padding-bottom:100px">
+        <div class="home" id="home" style="display:inline-flex;">
+            <div class="paragraph">
+                <h1>welcome to mery shop</h1>
+                <p id="changing-paragraph">Lorem ipsum dolor sit amet consectetur 
+                    adipisicing elit. Vero illum 
+                    necessitatibus, consequuntur praesentium 
+                    nulla aliquid reprehenderit blanditiis 
+                    consequatur, saepe sed architecto nihil tempore voluptatibus 
+                    provident hic? Quaerat eveniet minus dolorum!</p>
+                <button> <a href="#contactus" class="text-decoration-none text-white">Contact us</a></button>
+            </div>
+            <img src="images/slider-img.png" class="hide" alt="it is image of girl"  id="img" width="">
+        </div>
+    </div>
+    <div style="margin: 83px;" id="shop" >
+        <h1 style="margin-bottom: 80px; font-family: fantasy;">Lastest products</h1>
+        <div class="last">
+            <section class="product" onmouseover="showButton(this)" onmouseout="hideButton(this)">
+                <p>New</p>
+                <img src="images/p1.png" alt="">
+                <p class="name">product name </p>
+                <p>price :&nbsp;&nbsp; <span class="price">50$</span></p>
+                
+                <button class="product-button" style="display: none;">Add to Cart</button>
+            </section>
+            <section class="product" onmouseover="showButton(this)" onmouseout="hideButton(this)">
+                <p>New</p>
+                <img src="images/p2.png" alt="">
+                <p class="name">product name </p>
+                <p>price :&nbsp;&nbsp; <span class="price">200$</span></p>
+                <span class="price"></span>
+                <button class="product-button" style="display: none;">Add to Cart</button>
+            </section>
+            <section class="product" onmouseover="showButton(this)" onmouseout="hideButton(this)">
+                <p>New</p>
+                <img src="images/p3.png" alt="">
+                <p class="name">product name </p>
+                <p>price :&nbsp;&nbsp; <span class="price">250$</span></p>
+                <span class="price"></span>
+                <button class=" product-button" style="display: none;">Add to Cart</button>
+            </section>
+            <section class="product" onmouseover="showButton(this)" onmouseout="hideButton(this)">
+                <p>New</p>
+                <img src="images/p4.png" alt="">
+                <p class="name">product name </p>
+                <p>price :&nbsp;&nbsp; <span class="price">60$</span></p>
+                <span class="price"></span>
+                <button class="product-button" style="display: none;">Add to Cart</button>
+            </section>
+            <section class="product" onmouseover="showButton(this)" onmouseout="hideButton(this)">
+                <p>New</p>
+                <img src="images/p5.png" alt="">
+                <p class="name">product name </p>
+                <p>price :&nbsp;&nbsp; <span class="price">20$</span></p>
+                <span class="price"></span>
+                <button class="product-button" style="display: none;">Add to Cart</button>
+            </section>
+            <section class="product" onmouseover="showButton(this)" onmouseout="hideButton(this)">
+                <p>New</p>
+                <img src="images/p6.png" alt="">
+                <p class="name">product name </p>
+                <p>price :&nbsp;&nbsp; <span class="price">50$</span></p>
+                <span class="price"></span>
+                <button class="product-button" style="display: none;">Add to Cart</button>
+            </section>
+        </div>
+        <div class="last-product">
+        <button>View all products</button></div>
+    </div>
+    <div class="thebest">
+        <section class="section-two">
+        <img src="images/loging.png" class="hide"  alt=""></section>
+
+        <section class="section-one">
+        <h1>Best savings on new arrivals</h1>
+        <p>Explore unbeatable savings on our latest arrivals! Shop now for the best deals on fashion, electronics, and more. Don't miss out on big savings. Upgrade your style today!</p>
+        <button>Buy Now </button>
+        <button>See More</button></section>
+    </div>
+    <div class="th-part" id="whyus">
+        <h1>Why shop with us </h1>
+        <div class="shop-with">
+        <div class="shop">
+            <img src="images/delivery.ico" alt="">
+            <h5>Fast delivery</h5>
+            <p>variations of passages of lorem ipsum available</p>
+        </div>
+        <div class="shop">
+            <img src="images/free.ico" alt="">
+            <h5>Free shiping</h5>
+            <p>variations of passages of lorem ipsum available</p>
+        </div>
+        <div class="shop">
+            <img src="images/best-qualities.ico" alt="">
+            <h5>Best Quality</h5>
+            <p>variations of passages of lorem ipsum available</p>
+        </div>
+    </div>
+    </div>
+    <div class="gift">
+        <section class="section-two">
+            <img src="images/gifts.png" class="hide" alt=""></section>
+        <section class="section-one">
+            <h1>Gifts for your loved ones </h1>
+            <p>Explore New Arrivals with Savings! Shop now for the best deals on our latest collection and elevate your style without breaking the bank.</p>
+            <button>Buy Now </button>
+            <button>See More</button>
+        </section>        
+    </div>
+    <div  id="contactus">
+        <h1 style=" font-family: fantasy;text-align: start; margin-left:  83px;">
+        Contact us </h1>
+        <div class="contact">
+            
+            <img src="images/agency-img.jpg" class="hide" alt="">
+            <form action="post">
+                <input type="text" placeholder="Name"><br>
+                <input type="email" placeholder="Email"><br>
+                <input type="tel" placeholder="Phone"><br>
+                <textarea name="" id="" cols="30" rows="10">Message</textarea><br>
+                <button>Send</button>
+            </form>
+        </div>
+    </div>
+    <div id="testimonial">
+        <h1 style=" font-family: fantasy;text-align: start; margin-left:  83px;">Testimonial</h1>
+        <div class="test">
+        <div><img src="images/left_icon-icons.com_66714.ico" alt="" style="cursor:pointer;" id="left"></div>
+        <section>
+            <h3 id="name">Meriem</h3>
+            <small id="small">default model text</small>
+            <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, asperiores, quas id ad velit, repellat maiores totam dolore et animi tempore? Blanditiis aliquam error nihil vel corporis corrupti cum voluptatibus.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa laudantium eius cumque itaque est quasi possimus unde officia numquam labore, magni quaerat architecto consectetur aliquid officiis iure saepe in fugit!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, iure nam, possimus nisi asperiores nulla eaque ut odit ipsam natus enim vel non harum officia officiis ullam sequi eius sit.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta optio tempore voluptatibus neque velit maiores illo ex. Error omnis ipsa sint consequuntur odio vitae temporibus, voluptatibus rem dolores molestias commodi.
+            </p>
+        </section>
+        
+        <div><img src="images/right_icon_213865.ico" alt=""style="cursor:pointer;" id="right" ></div>
+    </div></div>
+    <footer>
+        <div class="division-one">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+</svg>&nbsp;&nbsp;
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+  <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+</svg>&nbsp;&nbsp;
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+  <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+</svg>&nbsp;&nbsp;
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+</svg>
+        </div>
+        <div class="division-two">
+            <section>
+                <h3>About us</h3><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam architecto magni impedit magnam tenetur repellendus itaque cupiditate! Similique iure nulla magnam, deleniti hic at libero assumenda nesciunt porro commodi optio.
+                </p>
+            </section>
+            <section>
+                <h3>Newsletter</h3><br>
+                <form action="" method="post">
+                    <input type="email" name="" id="" placeholder="Enter your email"><br>
+                    <button>Subscribe</button><br>
+                </form>
+            </section>
+            <section>
+                <h3>Need help</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, ad nulla quae iure tempore at sequi cumque soluta cupiditate eum beatae? Nobis explicabo commodi expedita voluptate id est voluptates libero?
+                </p><br>
+            </section>
+            <section>
+                <h3>Contact us</h3>
+                <br>
+                <img src="images/location.png" alt="" style="width: 19px;">
+                <a href="https://goo.gl/maps/ZjHSVUjqrESMEfx1A">Gb road 123 london Uk </a><br>
+                <img src="images/phone.png" alt="" style="width: 19px;">
+                <a href="tel:+212 639-093198">+01 &nbsp; 12345678901</a><br>
+                <img src="images/gmail.png" alt="" style="width: 19px;">
+                <a href="mailto:meriemmerbouhi@gmail.com">meriem@gmail.com </a><br></div>
+            </section>
+        <hr>
+        <span > &copy;2023 All Rights Reseved by me</span>
+
+
+
+</footer></div>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+</body>
+</html>
