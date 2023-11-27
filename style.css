@@ -555,3 +555,15 @@ li:hover{
     font-size: 18px;
     font-family: fantasy;
 }
+
+@media(max-width: 500px ) {
+    .contain {
+         padding: 0 ; 
+    }
+    #shop{
+        margin: 0 !important;
+    }
+    .th-part {
+        margin: 0 !important;
+    }
+}
